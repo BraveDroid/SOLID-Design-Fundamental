@@ -14,9 +14,11 @@ public class EmployeeFacade {
     public void payCalculator(EmployeeData employeeData) {
         payCalculator.calculatePay(employeeData);
     }
+
     public void hourReporter(EmployeeData employeeData) {
         hourReporter.reportHours(employeeData);
     }
+
     public void saveEmployee(EmployeeData employeeData) {
         employeeSaver.saveEmployee(employeeData);
     }

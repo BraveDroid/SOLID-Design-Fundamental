@@ -1,4 +1,5 @@
 package com.bravedroid.srp.after.solution3;
+
 //actor 3 COO Team, save the employee and delegate the actor1 and the actor2 to do things
 public class Employee {
     //data structure
@@ -15,7 +16,7 @@ public class Employee {
         this.payCalculator = payCalculator;
     }
 
-    public void payCalculator( ) {
+    public void payCalculator() {
         //delegate the payCalculator
         payCalculator.calculatePay(this);
     }
