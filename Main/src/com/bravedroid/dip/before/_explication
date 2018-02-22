@@ -1,0 +1,2 @@
+The problem come from hidden dependencies, we don't want to have some hidden dependencies.
+We always want to let the calling class create the dependency instead of letting the class itself to create the dependency.
