@@ -28,29 +28,8 @@ hs_err_pid*
 
 /local.properties
 #idea
-/.idea/workspace.xml
-/.idea/libraries
-/.idea/dbnavigator.xml
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/vcs.xml
+.idea/
 
-# User-specific stuff:
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/dictionaries
-
-# Sensitive or high-churn files:
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-
-# Gradle:
-.idea/**/gradle.xml
-.idea/**/libraries
 .gradle
 /build/
 # Ignore Gradle GUI config
@@ -67,8 +46,6 @@ gradle-app.setting
 cmake-build-debug/
 cmake-build-release/
 
-# Mongo Explorer plugin:
-.idea/**/mongoSettings.xml
 
 ## File-based project format:
 *.iws
@@ -84,8 +61,6 @@ out/
 # JIRA plugin
 atlassian-ide-plugin.xml
 
-# Cursive Clojure plugin
-.idea/replstate.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
@@ -94,4 +69,4 @@ crashlytics-build.properties
 fabric.properties
 
 #impl
-*.iml
+#*.iml
