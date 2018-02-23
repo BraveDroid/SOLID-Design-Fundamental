@@ -1,0 +1,20 @@
+The solution is about letting the caller to know what dependencies it needs to pass to the Bank class to be created/used.
+This solution is very helpful for testing as it gives us the opportunity to give more components for owr bound class
+
+The DIP is about concretely applying the two principles
+    A. High-level modules should not depend on low-level modules. Both should depend on abstractions.
+    B. Abstractions should not depend on details. Details should depend on abstractions.
+
+By applying this two principles we get a better solution :
+as the Client which is the high-level module have dependency on an abstraction of Bank (IBank)
+and the (IBank) will not depend on details (AccountsManager) (ClientsManager) (Management)
+but on abstraction (IAccountsManager) (IClientsManager) (IManagement)
+
+An image will explain the dependency flow and how it is inverted.
+
+To protect the module A from B you have to make B depends on A.
+This is why we use interfaces as they are abstract and depending on abstract reduce the dependencies of change, as interfaces are more safe and good architect
+ try always to make sure that interfaces don't change so often.
+
+The direction of the dependencies is from details/implementations/concretes module to their abstractions/contracts/interfaces module (as they implement them),
+ and from the client module to the abstraction/contracts/interfaces module which (as it uses them)...drawing the architectural boundary that separates the abstract from the concrete.

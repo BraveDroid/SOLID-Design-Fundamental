@@ -1,0 +1,11 @@
+The problem come from hidden dependencies, we don't want to have some hidden dependencies.
+We always want to let the calling class create the dependency instead of letting the class itself to create the dependency.
+
+So how to create dependencies the right way with respecting the good direction?
+and how to not depend on concrete modules?
+We know that it is not not possible to create a program that have no concrete modules because in oop
+to create a module you have to use the "new" keyword with a concrete class/module
+so how to limit all these concrete modules?
+
+We should use the power oo programming which is:
+the ability, through the use of polymorphism, to gain absolute control over every source code dependency in the system.
