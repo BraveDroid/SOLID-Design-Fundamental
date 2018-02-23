@@ -1,4 +1,4 @@
-package com.bravedroid.dip.before;
+package com.bravedroid.dip.before.problem3;
 
 public class Client {
     void useTheBank() {

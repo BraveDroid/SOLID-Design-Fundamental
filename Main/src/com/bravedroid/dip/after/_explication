@@ -1,2 +1,0 @@
-The solution is about letting the caller to know what dependencies it needs to pass to the Bank class to be created/used.
-This solution is very helpful for testing as it gives us the opportunity to give more components for owr bound class
