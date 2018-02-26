@@ -1,0 +1,12 @@
+If for each object o1 of type S there is an object o2 of type T
+such that for all programs P defined in terms of T,
+the behavior of P is unchanged
+    when o1 is substituted for o2
+        then S is a subtype of T
+
+In other words if a method works with a class of type A it should work with a class A1 a sub Type of A
+I always remember the sample of List and ArrayList with java collection, where is it always better to relay on abstraction
+so that we can change the pass an argument of any sub type of the List type for a better flexibility.
+
+The problem with the example of Phone and PhoneManager is that SubTypes of the Phone Class are does not all behave the same as any Phone class when it comes to the dial method.
+

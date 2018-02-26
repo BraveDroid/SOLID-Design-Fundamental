@@ -1,0 +1,16 @@
+There is 2 versions of this principle:
+
+1-Meyer's open/closed principle which is based on simple oo inheritance :
+A module will be said to be open if it is still available for extension. For example, it should be possible to add fields to the data structures it contains, or new elements to the set of functions it performs.
+A module will be said to be closed if it is available for use by other modules. This assumes that the module has been given a well-defined, stable description (the interface in the sense of information hiding).
+W add new features using inheritance but shouldn't change the existing class
+
+2-Polymorphic open/closed principle
+In contrast to Meyer's usage, this definition advocates inheritance from abstract base classes.
+Interface specifications can be reused through inheritance but implementation need not be.
+The existing interface is closed to modifications and new implementations must, at a minimum, implement that interface
+
+The example used here is about the newest way of ocp based on polymorphism (aka uncle bob version of the ocp)
+An old classic example of AreaManager which does calculate the area of a list of shapes.
+Every time we want to add a new type of shape we have to modify the AreaManager#calculateArea
+so it is not closed for modification. Open for extension whenever you want to add a new shape you have to implement the shape interface.

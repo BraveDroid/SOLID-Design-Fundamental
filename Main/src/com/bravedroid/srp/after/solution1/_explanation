@@ -1,0 +1,2 @@
+The downside of this solution is that the developers now have three classes that they have to instantiate and track.
+A common solution to this dilemma is to use the Facade pattern (solution 2 and 3)

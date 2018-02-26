@@ -1,0 +1,2 @@
+The solution is based on inverting the dependency from package a to b (a -> b ) or from class A to B (A->B),
+to something like (b->a) or (B->B_abstraction) and (A->B_B_abstraction)

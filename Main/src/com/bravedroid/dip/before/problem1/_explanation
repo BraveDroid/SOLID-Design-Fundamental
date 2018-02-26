@@ -1,0 +1,4 @@
+we want to protect the Class A from B because it is more important with a higher policy and does not change a lot like the class B.
+So we have to make the class B depends on A.
+But the problem is that the class A is using the class B.
+every time the class B change the class A has to be aware of what changed .

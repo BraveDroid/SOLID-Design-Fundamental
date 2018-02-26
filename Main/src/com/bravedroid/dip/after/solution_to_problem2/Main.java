@@ -19,7 +19,7 @@ public class Main {
         // but they can be gathered into a small number of concrete components and kept separate from the rest of the system.
         IServiceFactory factory = new ServiceFactory();
 
-        Client client=new Client();
+        Client client = new Client();
         client.useService(factory);
     }
 }

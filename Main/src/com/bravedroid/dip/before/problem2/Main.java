@@ -7,7 +7,7 @@ public class Main {
         //the ServiceFactory is dependent also on the the Service concrete class
         ServiceFactory factory = new ServiceFactory();
 
-        Client client=new Client();
+        Client client = new Client();
         client.useService(factory);
     }
 }
