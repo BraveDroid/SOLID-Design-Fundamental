@@ -1,5 +1,0 @@
-Solution 3 may look better if we want the EmployeeFacade to encapsulate the employee's data EmployeeData
-so we will have the Employee as a EmployeeFacade, the class can changed only by the Actor3
-
-Actor1 will change the payReporter
- and Actor2 will change HourReporter

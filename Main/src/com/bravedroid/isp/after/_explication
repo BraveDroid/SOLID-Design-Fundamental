@@ -1,5 +1,0 @@
-The solution is based on splitting the fat interface into many interfaces based only on needed behavior by the implementer to those interfaces.
-So in one hand we can say that the SmartPhone has the type of Calculator as  it will make some calculating operations, it has also the type Phone as it wil dial()
- and finally it can also do the lightOn/off() so it has the type of a Flashlight.
-In the other hand the AnaloguePhone does not have the type of Calculator nor Flashlight, it just hase the type of Phone.
-So it would only depend on this type, and this is the interface segregation principle.

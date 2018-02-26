@@ -1,2 +1,0 @@
-Facade pattern is used to simplify the usage of the three classes of EmployeeSave, HourReporter and PayCalculator
-Solution 3 may look better if we want the EmployeeFacade to encapsulate the employee's data EmployeeData

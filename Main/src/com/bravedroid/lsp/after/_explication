@@ -1,8 +1,0 @@
-The solution is based on making all the subTypes of the Phone Type do behave as they should be.
-The behavior is about to dial so every phone have to dial with its way of doing this behavior.
-
-The solution is based also on the principle that you should not ask for information but instead you should ask for help,
-this also will let the SmartManager hide its methods unlock() and isLocked() and keep them private.
-
-The solution is based on making SmartManager handle its problem internally to be able to do the dial() behavior.
-

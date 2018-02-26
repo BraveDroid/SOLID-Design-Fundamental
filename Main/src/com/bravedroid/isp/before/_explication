@@ -1,3 +1,0 @@
-The problem is that if AnaloguePhone want only to use the dial method. And by adding it the other dependencies
-we will get some unneeded coupling, and every time we change the code of this MultiPhone interface we have to compile then test
-the other classes that uses it. The problem is that we will add an unecessary work for the AnaloguePhone.

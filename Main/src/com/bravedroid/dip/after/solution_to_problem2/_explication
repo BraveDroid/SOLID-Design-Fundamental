@@ -1,5 +1,0 @@
-The solution is about separating the two layers with boundary.
-One layer for abstraction which depends also only on abstraction
-and the other is based on details which could always changes.
-
-By this way the Client class is safe from changes that could happen in the detail/concrete layer, because it is based the contract/abstraction layer.
